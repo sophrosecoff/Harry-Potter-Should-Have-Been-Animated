@@ -56,24 +56,32 @@ div.menu ol li a {
     color: black;
 }
 
-figure#Harry {
-    border: 1px solid rgb(88, 80, 73);
-    overflow: hidden;
+figure {
     margin: 0;
     position: relative;
 }
 
-figure#Harry img {
+figure img {
+    border: 1px solid rgb(88, 80, 73);
     margin-top: 0;
     width: 100%;
     display: block;
 }
 
-figure a::after {
+figcaption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: lighter;
+}
+
+figure > a::after {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
     content: "click to enlarge";
     display: inline-block;
     position: absolute;
-    bottom: 3px;
+    color: black;
+    text-shadow: white 1px 0 1px, white -1px 0 1px, white 0 -1px 1px, white 0 -1px 1px;
+    bottom: 20px;
     right: 5px;
 }
 
