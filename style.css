@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(245, 228, 212);
+    background-image: url("media/Background.jpg");
+    background-size: cover;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
