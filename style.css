@@ -1,8 +1,49 @@
 body {
-    background-image: url("media/Background.jpg");
-    background-size: cover;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+body.Harry {
+    background-color: rgb(245, 228, 212);
+}
+
+body.Ron {
+    background-color: rgb(226, 160, 39);
+}
+
+body.Lupin {
+    background-color: red;
+}
+
+body.Hermione {
+    background-color: rgb(241, 200, 201);
+}
+
+body.McGonigal {
+    background-color: rgb(159, 142, 166);
+}
+
+body.Luna {
+    background-color: red;
+}
+
+body.Ginny {
+    background-color: rgb(139, 67,51);
+}
+
+body.Dumbledore {
+    background-color: white;
+
+}
+
+body.Index {
+    background-image: url("media/Background.jpg");
+    background-size: cover;
+}
+
+body.Media {
+ background-color: red;
+}
+
 
 @media only screen and (max-width: 1100px) {
     body {
