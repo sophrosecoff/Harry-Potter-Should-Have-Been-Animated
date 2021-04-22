@@ -44,6 +44,11 @@ body.Tournaments {
     max-width: max-content !important;
 }
 
+body.Media {
+    padding-bottom: 2in;
+    max-width: 1200px !important;
+}
+
 
 @media only screen and (max-width: 1100px) {
     body {
@@ -213,17 +218,18 @@ tr td:nth-child(5) {
 }
 
 div.winner {
-    position: absolute;
+    /* position: absolute;
     text-align: center;
     top: calc(50% - 38px) ;
     left: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 td {
     padding: 16px 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
+    text-align: center;
 }
 
 td select {
@@ -241,6 +247,13 @@ td select {
 
 td select[required]:invalid, td select[disabled] {
     color: #999
+}
+
+td.downs {
+    vertical-align: bottom;
+}
+td.ups {
+    vertical-align: top;
 }
 
 div.links {
