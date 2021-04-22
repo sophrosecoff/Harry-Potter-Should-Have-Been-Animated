@@ -246,3 +246,13 @@ td select[required]:invalid, td select[disabled] {
 div.links {
     text-align: center;
 }
+
+hr {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+img.Polling {
+    width: 100%;
+
+}
